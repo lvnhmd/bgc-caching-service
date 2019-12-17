@@ -1,0 +1,33 @@
+{
+  "name": "bgc-caching-service",
+  "version": "1.0.0",
+  "description": "Caching Service API, developed as part of job application interview process for BGC Partners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --timeout 10000 --exit"
+  },
+  "keywords": [
+    "caching",
+    "api",
+    "rest",
+    "bgc"
+  ],
+  "author": "Elvin Ali",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.2.2",
+    "mocha": "^6.2.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^1.4.0"
+  }
+}
